@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* สีพื้นหลัง */
+    color: #333;
+}
+
+/* ส่วนหัว */
+header {
+    background-color: #b22222; /* สีแดงเข้ม */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    background-color: transparent; 
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* สีขาวโปร่งใสเมื่อเลื่อนเมาส์ */
+}
+
+/* การ์ด */
+.card {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: auto;
+    height: auto;     
+}
+
+
+
+/* ส่วนข้อมูลและรูปภาพ */
+.intro .profile-pic {
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งให้กลาง */
+    gap: 20px; /* ระยะห่างระหว่างรูป */
+    margin: 20px 0;
+}
+
+.profile-pic img {
+    width: 150px; /* ขนาดของรูป */
+    height: 150px; /* ขนาดของรูป */
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    object-fit: cover; /* ทำให้ภาพเต็มกรอบ */
+    border: 5px solid #b22222; /* กรอบรูปเป็นสีแดง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงาของรูป */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* การเปลี่ยนแปลงเมื่อเลื่อนเมาส์ */
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1); /* ขยายรูปเมื่อเลื่อนเมาส์ */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* เงาที่เข้มขึ้นเมื่อเลื่อนเมาส์ */
+}
+
+h2, h3 {
+    color: #b22222; /* สีหัวข้อเป็นสีแดง */
+    margin-bottom: 15px;
+}
+
+p, ul, li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #b22222; /* สีข้อความที่เน้น */
+}
+
+/* ส่วนท้าย */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b22222; /* สีแดงเข้ม */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
