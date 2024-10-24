@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* สีพื้นหลัง */
+    margin: 0;
+    padding: 20px;
+    background-image: url('PICTURE/BG2.jpg'); /* รูปพื้นหลัง */
+    background-size: cover; /* ขยายรูปพื้นหลังให้เต็ม */
+    background-position: center; /* จัดตำแหน่งรูปพื้นหลัง */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* สีพื้นหลังของคอนเทนเนอร์ พร้อมความโปร่งใส */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+}
+
+.profile-picture img {
+    width: 100px; /* กว้างของรูปโปรไฟล์ */
+    height: 100px; /* สูงของรูปโปรไฟล์ */
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    object-fit: cover; /* ให้รูปพอดีกับกรอบ */
+    border: 3px solid #007BFF; /* ขอบรอบรูปโปรไฟล์ */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007BFF; /* สีพื้นหลังปุ่ม */
+    color: white; /* สีข้อความ */
+    padding: 10px 20px; /* ระยะห่างภายใน */
+    margin: 0 10px; /* ระยะห่างระหว่างปุ่ม */
+    border: none; /* ไม่มีขอบ */
+    border-radius: 5px; /* มุมโค้งมน */
+    text-decoration: none; /* ไม่มีเส้นใต้ */
+    transition: background-color 0.3s; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* เปลี่ยนสีเมื่อวางเมาส์เหนือปุ่ม */
+}
