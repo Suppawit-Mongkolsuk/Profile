@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f0; /* สีพื้นหลัง */
     margin: 0;
     padding: 20px;
-    background-image: url('BG3.png'); /* รูปพื้นหลัง */
+    background-image: url('PICTURE/BG2.jpg'); /* รูปพื้นหลัง */
     background-size: cover; /* ขยายรูปพื้นหลังให้เต็ม */
     background-position: center; /* จัดตำแหน่งรูปพื้นหลัง */
 }

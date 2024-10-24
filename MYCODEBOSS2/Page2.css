@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('BG3.png'); /* เปลี่ยนชื่อเป็นไฟล์ที่ต้องการใช้ */
+    background-image: url('PICTURE/BG3.jpg'); /* เปลี่ยนชื่อเป็นไฟล์ที่ต้องการใช้ */
     background-size: cover; /* ขยายรูปพื้นหลังให้เต็ม */
     background-position: center; /* จัดตำแหน่งรูปพื้นหลังให้อยู่กลาง */
     margin: 0;
