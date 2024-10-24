@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Choice Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>เลือกคนที่อยากรู้จักได้เลยย</h1>
+    </div>
+
+    <div class="container">
+        <div class="panel left" onclick="goToLeftPage()">
+            <img src="left-image.jpg" alt="Left Option">
+            <h2>ชื่อฝั่งซ้าย</h2>
+        </div>
+
+        <div class="panel right" onclick="goToRightPage()">
+            <img src="right-image.jpg" alt="Right Option">
+            <h2>ชื่อฝั่งขวา</h2>
+        </div>
+    </div>
+
+    <script>
+        function goToLeftPage() {
+            window.location.href = 'left-page.html';
+        }
+
+        function goToRightPage() {
+            window.location.href = 'right-page.html';
+        }
+    </script>
+</body>
+</html>
